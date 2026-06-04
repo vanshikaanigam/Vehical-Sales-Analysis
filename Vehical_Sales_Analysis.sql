@@ -116,7 +116,7 @@ SELECT PRODUCTLINE,
 FROM VEHICAL_SALES
 GROUP BY PRODUCTLINE;
 
-#Q11. What is the revenue Lost Due to Cancelled / Non-Shipped Orders?
+#Q12. What is the revenue Lost Due to Cancelled / Non-Shipped Orders?
 #Business Problem: Revenue leakage
 
 WITH status_revenue AS (
